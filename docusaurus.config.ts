@@ -80,7 +80,7 @@ const config: Config = {
         { to: "/docs/", label: "Start Learning", position: "left" },
         { to: "/about", label: "About", position: "right" },
         {
-          href: "https://github.com/your-repo",
+          href: "https://github.com/JivanKadel/interactive_maths",
           label: "GitHub",
           position: "right",
         },
