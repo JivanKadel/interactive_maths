@@ -1,0 +1,94 @@
+---
+sidebar_position: 1
+title: Sets Operations
+description: ""
+icon: menu_book
+---
+
+# Operations on Sets
+
+Set operations help us combine, compare, or separate sets based on their elements. These operations are useful in organizing data, solving problems, and understanding relationships between groups.
+
+## Common Set Operations
+
+- **Union (A ∪ B)**: All elements in A or B or both.
+- **Intersection (A ∩ B)**: Elements common to A and B.
+- **Difference (A − B)**: Elements in A not in B.
+- **Complement (Aᶜ)**: Elements not in A (relative to universal set U).
+
+### 1. Union of Sets (A ∪ B)
+
+<figure>
+<img src="/img/sets/sets_union.png" alt="Venn diagram showing the union of sets A and B"/>
+<figcaption><b>Figure 1:</b> Union of two sets A and B.</figcaption>
+</figure>
+
+The union of two sets A and B includes all elements that are in A, in B, or in both.
+
+Duplicate elements are written only once.
+
+Example: If `A = {1, 2, 3, 4, 5, 6}` `B = {4, 5, 6, 7}` Then `A ∪ B = {1, 2, 3, 4, 5, 6, 7}`
+
+Set Builder Notation: `A ∪ B = {x : x ∈ A or x ∈ B}`
+
+### 2. Intersection of Sets (A ∩ B)
+
+<figure>
+<img src="/img/sets/sets_intersection.png" alt="Venn diagram showing the intersection of sets A and B"/>
+<figcaption><b>Figure 2:</b> Intersection of two sets A and B.</figcaption>
+</figure>
+
+The intersection includes only the elements that are common to both sets A and B.
+
+Example: `A = {1, 2, 3, 4, 5, 6}` `B = {4, 5, 6, 7}` Then `A ∩ B = {4, 5, 6}`
+
+Set Builder Notation: `A ∩ B = {x : x ∈ A and x ∈ B}`
+
+### 3. Difference of Sets (A − B)
+
+<figure>
+<img src="/img/sets/sets_difference.png" alt="Venn diagram showing the difference of sets A and B"/>
+<figcaption><b>Figure 3:</b> Set Difference: <b>(A - B)</b>.</figcaption>
+</figure>
+
+<figure>
+<img src="/img/sets/sets_difference_1.png" alt="Venn diagram showing the difference of sets B and A"/>
+<figcaption><b>Figure 4:</b> Set Difference: <b>(B - A)</b>.</figcaption>
+</figure>
+
+The difference `A − B` includes elements that are in A but not in B.
+
+Example: `A = {1, 2, 3, 4, 5, 6}` `B = {4, 5, 6, 7}` Then `A − B = {1, 2, 3}`
+
+Note: `A − B = A − (A ∩ B)`
+
+### 4. Symmetric Difference (A Δ B)
+
+<figure>
+<img src="/img/sets/sets_delta.png" alt="Venn diagram showing the Symmetric difference of sets B and A"/>
+<figcaption><b>Figure 5:</b> Symmetric Difference: <b>(A Δ B)</b>.</figcaption>
+</figure>
+
+The symmetric difference includes elements that are in A or B but not in both.
+
+Formula: `A Δ B = (A − B) ∪ (B − A)`
+
+Example: `A − B = {1, 2, 3}` `B − A = {7}` So, `A Δ B = {1, 2, 3, 7}`
+
+### 5. Complement of a Set (A̅)
+
+<figure>
+<img src="/img/sets/sets_complement.png" alt="Venn diagram showing the Complement of A union B"/>
+<figcaption><b>Figure 6:</b> Complement of A union B: <b>(A ∪ B)<sup>c</sup></b>.</figcaption>
+</figure>
+
+<figure>
+<img src="/img/sets/set_complement.png" alt="Venn diagram showing the Complement of A"/>
+<figcaption><b>Figure 6:</b> Complement of A: <b>(A̅) or A<sup>c</sup></b>.</figcaption>
+</figure>
+
+The complement of set A includes all elements in the universal set U that are not in A.
+
+Example: `U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}` `A = {1, 3, 5, 7, 9}` Then `A̅ = {2, 4, 6, 8, 10}`
+
+Set Builder Notation: `A̅ = {x : x ∈ U and x ∉ A}`
