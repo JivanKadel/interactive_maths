@@ -1,0 +1,106 @@
+---
+sidebar_position: 1
+title: Sets Cardinality
+description: ""
+icon: menu_book
+---
+
+# Cardinality of Sets
+
+The **cardinality** of a set is the number of elements in it. It tells us how many distinct items are in the set.
+
+If a set $𝐴 =\{2,4,6,8\}$, then the cardinality of $𝐴$ is 4.
+
+It is denoted by $𝑛(𝐴)$, meaning “number of elements in set A.”
+
+Example: Let $𝑉=\{𝑎,𝑒,𝑖,𝑜,𝑢\}$
+Then, $𝑛(𝑉) = 5$
+
+<div className="question">
+  <b>Q1.</b> What is the cardinality of the set of letters in ‘Mississippi’?
+  <details>
+  <summary>Show solution</summary>
+
+The distinct letters in 'Mississippi' are: M, I, S, P.
+So, the cardinality is $n = 4$.
+
+</details>
+</div>
+
+:::tip Explanation
+
+<b>Distinct Elements</b> - A set always has distinct elements. Meaning, no repetitions
+allowed!
+
+:::
+
+## Key Terms
+
+| Term          | Meaning                                                |
+| ------------- | ------------------------------------------------------ |
+| Cardinality   | The number of elements in a set                        |
+| n(A)          | Number of elements in set A                            |
+| n(A ∩ B)      | Number of elements common to both A and B              |
+| n(A ∪ B)      | Number of elements in either A or B or both            |
+| $n_o(A)$      | Number of elements only in A (i.e., in A but not in B) |
+| Disjoint Sets | Sets with no common elements; $A \cap B = \emptyset$   |
+
+## Important Formulas
+
+:::info Disjoint Sets
+**No common elements:**
+
+$$
+n(A \cup B) = n(A) + n(B)
+$$
+
+:::
+
+:::info Intersecting Sets
+**Some elements are common:**
+
+$$
+n(A \cup B) = n(A) + n(B) - n(A \cap B)
+$$
+
+:::
+
+:::info Only in A or B
+**Elements only in A:**
+
+$$
+n_o(A) = n(A) - n(A \cap B)
+$$
+
+**Elements only in B:**
+
+$$
+n_o(B) = n(B) - n(A \cap B)
+$$
+
+:::
+
+:::info Universal Set Relationships
+**If all elements are in A and B only:**
+
+$$
+n(U) = n(A \cup B)
+$$
+
+**If U has other elements too:**
+
+$$
+n(U) = n(A \cup B) + n(\text{outside } A \cup B)
+$$
+
+:::
+
+## Method: How to Find Cardinality
+
+- List all elements in each set.
+
+- Identify common elements (intersection).
+
+- Apply formulas based on whether sets are disjoint or intersecting.
+
+- Use Venn diagrams to visualize and verify.

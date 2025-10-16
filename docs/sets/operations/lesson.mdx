@@ -19,11 +19,26 @@ Set operations help us combine, compare, or separate sets based on their element
 ### 1. Union of Sets (A ∪ B)
 
 <figure>
-<img src="/img/sets/sets_union.png" alt="Venn diagram showing the union of sets A and B"/>
-<figcaption><b>Figure 1:</b> Union of two sets A and B.</figcaption>
+  <img
+    src="/img/sets/sets_union.png"
+    alt="Venn diagram showing the union of sets A and B"
+  />
+  <figcaption>
+    <b>Figure 1:</b> Union of two sets A and B.
+  </figcaption>
 </figure>
 
 The union of two sets A and B includes all elements that are in A, in B, or in both.
+
+<figure>
+  <img
+    src="/img/sets/sets_union_shaded.png"
+    alt="Venn diagram showing the union of sets A and B"
+  />
+  <figcaption>
+    <b>Figure 2:</b> Union of two sets A and B <b>(shaded)</b>.
+  </figcaption>
+</figure>
 
 Duplicate elements are written only once.
 
@@ -34,8 +49,13 @@ Set Builder Notation: `A ∪ B = {x : x ∈ A or x ∈ B}`
 ### 2. Intersection of Sets (A ∩ B)
 
 <figure>
-<img src="/img/sets/sets_intersection.png" alt="Venn diagram showing the intersection of sets A and B"/>
-<figcaption><b>Figure 2:</b> Intersection of two sets A and B.</figcaption>
+  <img
+    src="/img/sets/sets_intersection.png"
+    alt="Venn diagram showing the intersection of sets A and B"
+  />
+  <figcaption>
+    <b>Figure 3:</b> Intersection of two sets A and B.
+  </figcaption>
 </figure>
 
 The intersection includes only the elements that are common to both sets A and B.
@@ -47,13 +67,23 @@ Set Builder Notation: `A ∩ B = {x : x ∈ A and x ∈ B}`
 ### 3. Difference of Sets (A − B)
 
 <figure>
-<img src="/img/sets/sets_difference.png" alt="Venn diagram showing the difference of sets A and B"/>
-<figcaption><b>Figure 3:</b> Set Difference: <b>(A - B)</b>.</figcaption>
+  <img
+    src="/img/sets/sets_difference.png"
+    alt="Venn diagram showing the difference of sets A and B"
+  />
+  <figcaption>
+    <b>Figure 4:</b> Set Difference: <b>(A - B)</b>.
+  </figcaption>
 </figure>
 
 <figure>
-<img src="/img/sets/sets_difference_1.png" alt="Venn diagram showing the difference of sets B and A"/>
-<figcaption><b>Figure 4:</b> Set Difference: <b>(B - A)</b>.</figcaption>
+  <img
+    src="/img/sets/sets_difference_1.png"
+    alt="Venn diagram showing the difference of sets B and A"
+  />
+  <figcaption>
+    <b>Figure 5:</b> Set Difference: <b>(B - A)</b>.
+  </figcaption>
 </figure>
 
 The difference `A − B` includes elements that are in A but not in B.
@@ -62,11 +92,20 @@ Example: `A = {1, 2, 3, 4, 5, 6}` `B = {4, 5, 6, 7}` Then `A − B = {1, 2, 3}`
 
 Note: `A − B = A − (A ∩ B)`
 
+:::important
+Remember that **A ∩ B = B ∩ A**, but **A − B ≠ B − A**.
+:::
+
 ### 4. Symmetric Difference (A Δ B)
 
 <figure>
-<img src="/img/sets/sets_delta.png" alt="Venn diagram showing the Symmetric difference of sets B and A"/>
-<figcaption><b>Figure 5:</b> Symmetric Difference: <b>(A Δ B)</b>.</figcaption>
+  <img
+    src="/img/sets/sets_delta.png"
+    alt="Venn diagram showing the Symmetric difference of sets B and A"
+  />
+  <figcaption>
+    <b>Figure 6:</b> Symmetric Difference: <b>(A Δ B)</b>.
+  </figcaption>
 </figure>
 
 The symmetric difference includes elements that are in A or B but not in both.
@@ -75,16 +114,33 @@ Formula: `A Δ B = (A − B) ∪ (B − A)`
 
 Example: `A − B = {1, 2, 3}` `B − A = {7}` So, `A Δ B = {1, 2, 3, 7}`
 
-### 5. Complement of a Set (A̅)
+### 5. Complement of a Set [A̅ or (A∪B)<sup>c</sup>]
 
 <figure>
-<img src="/img/sets/sets_complement.png" alt="Venn diagram showing the Complement of A union B"/>
-<figcaption><b>Figure 6:</b> Complement of A union B: <b>(A ∪ B)<sup>c</sup></b>.</figcaption>
+  <img
+    src="/img/sets/sets_complement.png"
+    alt="Venn diagram showing the Complement of A union B"
+  />
+
+  <figcaption>
+
+    <b>Figure 7:</b> Complement of A union B:{" "}
+    <b> (A ∪ B)<sup>c</sup></b>.
+
+  </figcaption>
 </figure>
 
 <figure>
-<img src="/img/sets/set_complement.png" alt="Venn diagram showing the Complement of A"/>
-<figcaption><b>Figure 6:</b> Complement of A: <b>(A̅) or A<sup>c</sup></b>.</figcaption>
+  <img
+    src="/img/sets/set_complement.png"
+    alt="Venn diagram showing the Complement of A"
+  />
+  <figcaption>
+    <b>Figure 8: </b> Complement of A: {" "}
+    <b> (A̅) or A <sup> c </sup></b>
+    .
+
+  </figcaption>
 </figure>
 
 The complement of set A includes all elements in the universal set U that are not in A.
