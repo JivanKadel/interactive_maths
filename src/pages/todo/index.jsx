@@ -65,7 +65,7 @@ export default function UnderConstruction() {
 
       <div className={styles.artBlock}>
         <span className="material-symbols-outlined">build</span>
-        <p>Patience is a virtue… for the web as well as math!</p>
+        <p>Patience is a virtue… for the web as well as maths!</p>
       </div>
     </div>
   );

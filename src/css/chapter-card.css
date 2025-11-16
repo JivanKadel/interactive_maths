@@ -38,6 +38,7 @@
 .chapter-title {
   font-size: 1.125rem;
   line-height: 1.75rem;
+  padding-top: 16px;
   font-weight: 700;
   color: var(--ifm-font-color-base);
 }

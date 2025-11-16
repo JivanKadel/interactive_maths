@@ -73,7 +73,6 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      // title: "",
       items: [
         {
           type: "html",
@@ -85,8 +84,6 @@ const config: Config = {
   <span>IMaths</span>
 </a>
 `,
-
-          // '<span class="material-symbols-outlined">home</span>',
         },
         {
           href: "https://github.com/JivanKadel/interactive_maths",
