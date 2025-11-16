@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://jivankadel.github.io/interactive_maths/blog</id>
+    <title>My Site Blog</title>
+    <updated>2025-10-14T06:00:02.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://jivankadel.github.io/interactive_maths/blog"/>
+    <subtitle>My Site Blog</subtitle>
+    <icon>https://jivankadel.github.io/interactive_maths/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Interactive Maths Blog]]></title>
+        <id>https://jivankadel.github.io/interactive_maths/blog/index</id>
+        <link href="https://jivankadel.github.io/interactive_maths/blog/index"/>
+        <updated>2025-10-14T06:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Explore the  tutorials  for now. Articles will be added in the future.]]></summary>
+        <content type="html"><![CDATA[<p>Explore the <a href="https://jivankadel.github.io/interactive_maths/docs/"> tutorials </a> for now. Articles will be added in the future.</p>]]></content>
+    </entry>
+</feed>

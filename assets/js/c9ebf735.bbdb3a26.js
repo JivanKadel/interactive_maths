@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkinteractive_maths=globalThis.webpackChunkinteractive_maths||[]).push([[7395],{3554:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/interactive_maths/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

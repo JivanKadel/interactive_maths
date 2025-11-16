@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkinteractive_maths=globalThis.webpackChunkinteractive_maths||[]).push([[7472],{5513:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Interactive Maths Blog","permalink":"/interactive_maths/blog/index","unlisted":false,"date":"2025-10-14T06:00:02.000Z"}]}')}}]);
