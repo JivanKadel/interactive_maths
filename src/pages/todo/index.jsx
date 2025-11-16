@@ -5,7 +5,6 @@ import styles from "./styles.module.css";
 export default function UnderConstruction() {
   const canvasRef = useRef(null);
 
-  // Simple animated canvas waves
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
