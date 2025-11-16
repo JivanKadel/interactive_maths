@@ -28,7 +28,7 @@ const config: Config = {
   baseUrl: "/interactive_maths/",
 
   organizationName: "JivanKadel",
-  projectName: "interactive-maths",
+  projectName: "interactive_maths",
 
   onBrokenLinks: "throw",
 
