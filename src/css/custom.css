@@ -1,11 +1,18 @@
+@import "./material-symbols.css";
+@import "./misc.css";
+@import "./button.css";
+@import "./chapter-card.css";
+@import "./index-page.css";
+@import "./page-toc.css";
+@import "./table-of-content.css";
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-
 /* You can override the default Infima variables here. */
-:root {
+/* :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -20,7 +27,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme="dark"] {
+/*[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -31,81 +38,92 @@
   --ifm-color-secondary: #c4c8cb;
   --character-highlight: #4fc3f7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+} */
+
+:root {
+  --ifm-color-primary: rgb(19 127 236);
+  --ifm-color-primary-dark: rgb(15 110 205);
+  --ifm-color-primary-darker: rgb(12 95 180);
+  --ifm-color-primary-light: rgb(82 163 244);
+  --ifm-color-primary-lighter: rgb(140 193 250);
+  --ifm-color-primary-lightest: rgb(195 220 253);
+
+  --ifm-color-primary-bg: rgb(19 127 236 / 0.2);
+
+  --ifm-color-secondary: rgb(229 231 235);
+  --ifm-color-secondary-text: rgb(75 85 99);
+  --ifm-color-secondary-bg: rgb(229 231 235);
+
+  --ifm-color-warning: rgb(245 158 11);
+  --ifm-color-success: rgb(34 197 94);
+  --ifm-color-info: rgb(14 165 233);
+
+  --ifm-background-color: rgb(246 247 248);
+  --ifm-background-surface: rgb(255 255 255);
+  --ifm-background-surface-secondary: rgb(229 231 235);
+
+  --ifm-font-color-base: rgb(17 24 39);
+  --ifm-font-color-secondary: rgb(75 85 99);
+  --ifm-link-color: rgb(19 127 236);
+
+  --ifm-color-highlight: rgb(19 127 236 / 0.2);
+  --ifm-color-highlight-text: rgb(19 127 236);
+
+  --ifm-button-color-primary-background: rgb(19 127 236);
+  --ifm-button-color-primary-text: white;
+  --ifm-button-color-secondary-background: rgb(229 231 235);
+  --ifm-button-color-secondary-text: rgb(17 24 39);
+
+  --ifm-color-emphasis-200: rgb(229 231 235);
+  --ifm-color-emphasis-300: rgb(209 213 219);
+  --ifm-color-emphasis-400: rgb(156 163 175);
+
+  --ifm-font-family-base: "Inter", system-ui, sans-serif;
+  --ifm-font-size-base: 16px;
+
+  --ifm-code-font-size: 95%;
+  --ifm-code-background: rgb(229 231 235);
 }
 
-figure {
-  text-align: center;
-  margin: 1.5rem 0;
-}
+html[data-theme="dark"] {
+  --ifm-color-primary: rgb(82 163 244);
+  --ifm-color-primary-dark: rgb(60 130 210);
+  --ifm-color-primary-darker: rgb(40 100 170);
+  --ifm-color-primary-light: rgb(140 193 250);
+  --ifm-color-primary-lighter: rgb(180 213 253);
+  --ifm-color-primary-lightest: rgb(220 233 255);
 
-figcaption {
-  font-size: 0.9rem;
-  color: var(--ifm-color-secondary);
-  margin-top: 0.5rem;
-  text-decoration: underline;
-}
+  --ifm-color-primary-bg: rgb(19 127 236 / 0.35);
 
-details {
-  margin: 1rem 0;
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 8px;
-  background: var(--ifm-background-surface-color);
-}
+  --ifm-color-secondary: rgb(55 65 81);
+  --ifm-color-secondary-text: rgb(229 231 235);
+  --ifm-color-secondary-bg: rgb(55 65 81);
 
-summary {
-  font-weight: 600;
-  cursor: pointer;
-}
+  --ifm-color-warning: rgb(251 191 36);
+  --ifm-color-success: rgb(74 222 128);
+  --ifm-color-info: rgb(56 189 248);
 
-.question {
-  background: var(--ifm-color-emphasis-100);
-  border-left: 4px solid var(--ifm-color-primary);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 1rem 0;
-  font-weight: 500;
-}
+  --ifm-background-color: rgb(17 24 39);
+  --ifm-background-surface: rgb(31 41 55);
+  --ifm-background-surface-secondary: rgb(55 65 81);
 
-.question b {
-  color: var(--ifm-color-primary);
-}
+  --ifm-font-color-base: rgb(229 231 235);
+  --ifm-font-color-secondary: rgb(209 213 219);
+  --ifm-link-color: rgb(82 163 244);
 
-.char-highlight {
-  color: var(--character-highlight);
-  font-weight: bold;
-  padding: 0 0.2em;
-  border-radius: 0.2em;
-}
+  --ifm-color-highlight: rgb(19 127 236 / 0.35);
+  --ifm-color-highlight-text: rgb(164 205 250);
 
-.highlight {
-  background: #fff3cd;
-  color: #8a6d3b;
-}
+  --ifm-button-color-primary-background: rgb(19 127 236);
+  --ifm-button-color-primary-text: white;
 
-.highlight-blue {
-  background: #e3f2fd;
-  color: #1565c0;
-}
+  --ifm-button-color-secondary-background: rgb(55 65 81);
+  --ifm-button-color-secondary-text: rgb(229 231 235);
 
-.highlight-green {
-  background: #e8f5e9;
-  color: #2e7d32;
-}
+  --ifm-color-emphasis-200: rgb(55 65 81);
+  --ifm-color-emphasis-300: rgb(75 85 99);
+  --ifm-color-emphasis-400: rgb(107 114 128);
 
-.highlight-pink {
-  background: #fce4ec;
-  color: #ad1457;
-}
-.highlight-red {
-  background: #ffebee;
-  color: #c62828;
-}
-.highlight-yellow {
-  background: #fffde7;
-  color: #f9a825;
-}
-.highlight-purple {
-  background: #f3e5f5;
-  color: #6a1b9a;
+  --ifm-code-font-size: 95%;
+  --ifm-code-background: rgb(55 65 81);
 }

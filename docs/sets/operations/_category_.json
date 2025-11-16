@@ -1,9 +1,4 @@
 {
   "label": "Operations on Sets",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "title": "Operations on Sets",
-    "description": "Learn about union, intersection, and complement of sets."
-  }
+  "position": 2
 }

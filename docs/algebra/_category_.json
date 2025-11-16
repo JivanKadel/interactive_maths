@@ -1,9 +1,4 @@
 {
   "label": "Algebra",
-  "position": 5,
-  "link": {
-    "type": "generated-index",
-    "title": "Algebra",
-    "description": "Understand algebraic concepts, expressions, equations, and applications in Grade 9 Mathematics."
-  }
+  "position": 5
 }

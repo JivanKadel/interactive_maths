@@ -4,7 +4,7 @@ title: Sets Quiz
 description: ""
 ---
 
-# Quiz to Sets
+# Sets Quiz
 
 1. If `A = {1,2,3}` and `B = {2,3,4}`, what is A ∩ B?
 2. Which of the following is a finite set?

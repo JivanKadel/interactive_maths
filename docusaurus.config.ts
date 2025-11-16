@@ -4,12 +4,10 @@ import type * as Preset from "@docusaurus/preset-classic";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  favicon: "/img/favicon.ico",
   headTags: [
     {
       tagName: "link",
@@ -25,22 +23,15 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Jivan Kadel", // Usually your GitHub org/user name.
-  projectName: "Interactive Maths", // Usually your repo name.
+  organizationName: "Jivan Kadel",
+  projectName: "Interactive Maths",
 
   onBrokenLinks: "throw",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -54,27 +45,11 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
 
-        // blog: {
-        //   showReadingTime: true,
-        //   feedOptions: {
-        //     type: ["rss", "atom"],
-        //     xslt: true,
-        //   },
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        //   // Useful options to enforce blogging best practices
-        //   onInlineTags: "warn",
-        //   onInlineAuthors: "warn",
-        //   onUntruncatedBlogPosts: "warn",
-        // },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -86,18 +61,33 @@ const config: Config = {
       href: "/katex/katex.min.css",
       type: "text/css",
     },
+
+    {
+      href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined",
+      rel: "stylesheet",
+    },
   ],
   themeConfig: {
-    // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "Grade 9 Mathematics",
+      // title: "",
       items: [
-        { to: "/docs/", label: "Start Learning", position: "left" },
-        { to: "/about", label: "About", position: "right" },
+        {
+          type: "html",
+          position: "left",
+          value: `<a href="/" style="display:flex; align-items:center; gap:8px;">
+  <svg xmlns="http://www.w3.org/2000/svg" height="20px" width="20px" viewBox="0 -960 960 960" fill="#1f1f1f" stroke="white" stroke-width="40" stroke-linejoin="round">
+    <path d="M440-183v-274L200-596v274l240 139Zm80 0 240-139v-274L520-457v274Zm-40-343 237-137-237-137-237 137 237 137ZM160-252q-19-11-29.5-29T120-321v-318q0-22 10.5-40t29.5-29l280-161q19-11 40-11t40 11l280 161q19 11 29.5 29t10.5 40v318q0 22-10.5 40T800-252L520-91q-19 11-40 11t-40-11L160-252Zm320-228Z"/>
+  </svg>
+  <span>IMaths</span>
+</a>
+`,
+
+          // '<span class="material-symbols-outlined">home</span>',
+        },
         {
           href: "https://github.com/JivanKadel/interactive_maths",
           label: "GitHub",

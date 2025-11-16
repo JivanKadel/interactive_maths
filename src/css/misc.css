@@ -1,0 +1,93 @@
+figure {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: var(--ifm-font-color-base);
+  margin-top: 0.5rem;
+  text-decoration: underline;
+}
+
+details {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+}
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.question {
+  background: var(--ifm-color-emphasis-100);
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.question b {
+  color: var(--ifm-color-primary);
+}
+
+.char-highlight {
+  color: var(--character-highlight);
+  font-weight: bold;
+  padding: 0 0.2em;
+  border-radius: 0.2em;
+}
+
+.highlight {
+  background: #fff3cd;
+  color: #8a6d3b;
+}
+
+.highlight-blue {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.highlight-green {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.highlight-pink {
+  background: #fce4ec;
+  color: #ad1457;
+}
+.highlight-red {
+  background: #ffebee;
+  color: #c62828;
+}
+.highlight-yellow {
+  background: #fffde7;
+  color: #f9a825;
+}
+.highlight-purple {
+  background: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.icon-blue {
+  color: rgb(19 127 246);
+}
+
+.icon-medium {
+  font-size: 28px;
+}
+.icon-large {
+  font-size: 36px;
+}
+.icon-x-large {
+  font-size: 48px;
+}
+.icon-largest {
+  font-size: 64px;
+}

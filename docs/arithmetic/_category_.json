@@ -1,9 +1,4 @@
 {
   "label": "Arithmetic",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "title": "Arithmetic",
-    "description": "Understand arithmetic operations, properties, and applications in Grade 9 Mathematics."
-  }
+  "position": 3
 }

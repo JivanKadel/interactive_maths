@@ -1,9 +1,4 @@
 {
   "label": "Sets",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "title": "Sets",
-    "description": "Understand sets, types, operations, and counting elements in Grade 9 Mathematics."
-  }
+  "position": 2
 }

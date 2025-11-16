@@ -1,0 +1,80 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  transition: background 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--ifm-button-color-primary-background);
+  color: var(--ifm-button-color-primary-text);
+}
+
+.btn-primary:hover {
+  background: var(--ifm-color-primary-dark);
+}
+
+.btn-secondary {
+  background: var(--ifm-button-color-secondary-background);
+  color: var(--ifm-button-color-secondary-text);
+}
+
+.btn-secondary:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.btn-icon {
+  font-size: 20px;
+}
+
+.link-primary {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  transition: background 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+  border: none;
+  background: var(--ifm-button-color-primary-background);
+  color: var(--ifm-button-color-primary-text);
+
+  &:hover {
+    background: var(--ifm-color-primary-dark);
+  }
+}
+
+.link-secondary {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  transition: background 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+  border: none;
+  background: var(--ifm-button-color-secondary-background);
+  color: var(--ifm-button-color-secondary-text);
+
+  &:hover {
+    outline: 2px solid var(--ifm-font-color-secondary);
+  }
+}

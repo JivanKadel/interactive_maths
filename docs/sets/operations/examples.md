@@ -77,4 +77,3 @@ $\mathcal{P}(A) = \{\varnothing, \{a\}, \{b\}, \{a, b\}\}$
 ---
 
 Each operation helps us analyze relationships between sets, such as finding common elements (intersection), combining sets (union), or exploring all possible groupings (powerset).
-

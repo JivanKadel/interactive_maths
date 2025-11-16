@@ -1,0 +1,71 @@
+.chapter-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-radius: 0.75rem;
+  border-width: 1px;
+  border-color: var(--ifm-color-emphasis-200);
+  background-color: var(--ifm-background-surface);
+  padding: 1.5rem;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent,
+    0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.chapter-card:hover {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -2px rgb(0 0 0 / 0.05);
+}
+
+/* Header Row */
+.chapter-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Icon Background */
+.chapter-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 8px;
+  background-color: var(--ifm-color-primary-bg);
+}
+
+/* Title */
+.chapter-title {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: var(--ifm-font-color-base);
+}
+
+/* Description */
+.chapter-description {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--ifm-font-color-secondary);
+}
+
+/* Link */
+.chapter-link {
+  display: flex;
+  margin-top: 0.5rem;
+  gap: 0.25rem;
+  align-items: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: var(--ifm-link-color);
+  text-decoration: none;
+}
+
+.chapter-link .arrow {
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.chapter-card:hover .arrow {
+  transform: translateX(4px);
+}

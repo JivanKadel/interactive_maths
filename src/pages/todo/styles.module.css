@@ -1,0 +1,131 @@
+.pageWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1.5rem;
+  text-align: center;
+  min-height: 80vh;
+  background: var(--ifm-background-color);
+}
+
+.canvas {
+  width: 100%;
+  height: 220px;
+  max-width: 1000px;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  background: transparent;
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+.hammerIcon {
+  font-size: 4rem;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+  color: var(--ifm-color-primary);
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  opacity: 0.75;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.buttonRow {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btnPrimary,
+.btnSecondary {
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btnPrimary {
+  background: var(--ifm-color-primary);
+  color: var(--ifm-background-color);
+}
+
+.btnPrimary:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: translateY(-2px);
+}
+
+.btnSecondary {
+  background: var(--ifm-color-secondary);
+  color: var(--ifm-color-emphasis-800);
+}
+
+.btnSecondary:hover {
+  background: var(--ifm-color-secondary-dark);
+  transform: translateY(-2px);
+}
+
+/* Art block */
+.artBlock {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--primary-link-bg);
+  border-radius: 12px;
+  max-width: 420px;
+  font-size: 0.95rem;
+  color: var(--ifm-color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.artBlock > span {
+  font-size: 2rem;
+}
+
+/* DARK MODE */
+html[data-theme="dark"] .pageWrapper {
+  background: rgb(24, 24, 24);
+}
+
+html[data-theme="dark"] .title {
+  color: var(--ifm-color-primary-light);
+}
+
+html[data-theme="dark"] .hammerIcon {
+  color: var(--ifm-color-primary-light);
+}
+
+html[data-theme="dark"] .subtitle {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+html[data-theme="dark"] .btnPrimary {
+  color: white;
+}
+
+html[data-theme="dark"] .artBlock {
+  background: rgba(19, 127, 236, 0.18);
+  color: var(--ifm-color-primary-light);
+}
