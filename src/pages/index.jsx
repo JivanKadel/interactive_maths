@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Layout from "@theme/Layout";
 import TableOfContent from "../components/TableOfContents";
-import Button from "../components/Button";
 import ChapterCard from "../components/ChapterCard";
 import PageTOC from "../components/PageTOC";
 import { chapters } from "@site/static/data/grade_nine_syllabus";
+import Link from "@docusaurus/Link";
 
 export default function Home() {
   const [activeTOC, setActiveTOC] = useState("introduction");
@@ -63,13 +63,13 @@ export default function Home() {
             </p>
           </section>
           <div className="button-row" id="getting-started">
-            <a href="/docs/" className="link-primary">
+            <Link to="/docs/" className="link-primary">
               Start Learning
               <span className="material-symbols-outlined">arrow_right_alt</span>
-            </a>
-            <a href="/todo" className="link-secondary">
+            </Link>
+            <Link to="/todo" className="link-secondary">
               Take a Quiz
-            </a>
+            </Link>
           </div>
 
           <hr className="divider" />

@@ -1,3 +1,5 @@
+import Link from "@docusaurus/Link";
+
 export default function ChapterCard({
   icon = null,
   title,
@@ -21,10 +23,10 @@ export default function ChapterCard({
 
       <p className="chapter-description">{description}</p>
 
-      <a href={`${href}`} className="chapter-link">
+      <Link to={`${href}`} className="chapter-link">
         Start Chapter
         <span className="material-symbols-outlined arrow">arrow_forward</span>
-      </a>
+      </Link>
     </div>
   );
 }
