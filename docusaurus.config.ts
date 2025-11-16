@@ -23,12 +23,12 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://jivankadel.github.io/",
 
-  baseUrl: "/",
+  baseUrl: "/interactive_maths/",
 
-  organizationName: "Jivan Kadel",
-  projectName: "Interactive Maths",
+  organizationName: "JivanKadel",
+  projectName: "interactive-maths",
 
   onBrokenLinks: "throw",
 
