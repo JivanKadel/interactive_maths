@@ -5,6 +5,8 @@ description: Introduction to the concept of sets and their notation.
 icon: menu_book
 ---
 
+import useBaseUrl from "@docusaurus/useBaseUrl";
+
 # Introduction to Sets
 
 A **set** is a **well-defined** collection of **distinct** objects.
@@ -22,8 +24,8 @@ We will study operations on sets, cardinality, exercises, and quizzes in this un
 
 | Real-world Group              | Set Representation                             |
 | ----------------------------- | ---------------------------------------------- |
-| Students in a football team   | `F = {Ivan, Bella, Sunita, Jivan, Pratyusha}`  |
-| Students in a basketball team | `B = {Ivan, Bella, Pratyusha, Samir}`          |
+| Students in a football team   | `F = {Hari, Shyam, Ram, Jivan, Priyanka}`      |
+| Students in a basketball team | `B = {Ivan, Bella, Sameer, Jivan}`             |
 | Days of the week              | `D = {Sunday, Monday, Tuesday, ..., Saturday}` |
 | Vowels in English             | `V = {a, e, i, o, u}`                          |
 
@@ -41,18 +43,21 @@ We will study operations on sets, cardinality, exercises, and quizzes in this un
 
 A **subset** is a set whose elements are all contained within another set. If every element of set $A$ is also in set $B$, then $A$ is a subset of $B$ (written as $A \subseteq B$).
 
-**Example:**  
-Let $B = \{1, 2, 3\}$  
+**Example:** Let $B = \{1, 2, 3\}$
+
 Possible subsets of $B$ include:
 
 - $\{\}$ (the empty set)
+
 - $\{1\}$, $\{2\}$, $\{3\}$
+
 - $\{1, 2\}$, $\{2, 3\}$, $\{1, 3\}$
+
 - $\{1, 2, 3\}$
 
 <figure>
-<img src="/img/sets/set_subsets.png" alt="A graph showing subsets of a set, B = {1, 2, 3}"/>
-<figcaption><b>Figure 1:</b> Subsets of: <b>B = \{1, 2, 3\}</b>.</figcaption>
+  <img src={useBaseUrl("/img/sets/set_subsets.png")} alt="A graph showing subsets of a set, B = {1, 2, 3}"/>
+  <figcaption><b>Figure 1:</b> Subsets of: <b>B = \{1, 2, 3\}</b>.</figcaption>
 </figure>
 
 ### Types of Subsets

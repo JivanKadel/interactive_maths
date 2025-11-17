@@ -5,7 +5,7 @@
 @import "./index-page.css";
 @import "./page-toc.css";
 @import "./table-of-content.css";
-
+@import "/static/katex/katex.min.css";
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -39,7 +39,6 @@
   --character-highlight: #4fc3f7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 } */
-
 :root {
   --ifm-color-primary: rgb(19 127 236);
   --ifm-color-primary-dark: rgb(15 110 205);
@@ -127,3 +126,18 @@ html[data-theme="dark"] {
   --ifm-code-font-size: 95%;
   --ifm-code-background: rgb(55 65 81);
 }
+
+/* .katex,
+.katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  display: inline-block;
+}
+
+.katex .mroot > .vlist-t {
+  max-width: 100%;
+}
+
+.katex .msqrt {
+  line-height: 1.2;
+} */

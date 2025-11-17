@@ -67,7 +67,7 @@ export const chapters = [
     id: "009",
     icon: "rule",
     title: "Formula Review",
-    href: "/docs/formula-review",
+    href: "/todo/",
     description:
       "Access a compact collection of essential formulas from every chapter.",
   },

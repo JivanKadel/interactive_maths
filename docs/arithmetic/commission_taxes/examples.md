@@ -17,7 +17,7 @@ An agent earns 1% commission on Rs. 18,000. Calculate Commission amount, and Net
 
 - Rate = 1%
 
-- $Commission = ( \frac{1}{100}\times 18000 = Rs. 180 )$
+- $Commission = ( \dfrac{1}{100}\times 18000 = Rs. 180 )$
 
 - Net Income = Rs. 18,000 − Rs. 180 = Rs. 17,820
 
@@ -29,7 +29,7 @@ Monthly sales = Rs. 10,00,000. Calculate the total salary
 
 - Commission-able amount = Rs. 4,00,000
 
-- $Commission = ( \frac{1 \times 400000}{100} = Rs. 4,000 )$
+- $Commission = ( \dfrac{1 \times 400000}{100} = Rs. 4,000 )$
 
 - Total Salary = Rs. 12,000 + Rs. 4,000 = Rs. 16,000
 
@@ -43,7 +43,7 @@ Sales = Rs. 5,00,000. Commission Rate = ?.
 
 - Commission = Rs. 21,000 − Rs. 11,000 = Rs. 10,000
 
-- $Rate = ( \frac{10,000}{5,00,000} \times 100\% = 2\% )$
+- $Rate = ( \dfrac{10,000}{5,00,000} \times 100\% = 2\% )$
 
 So, the commission rate is 2%.
 
@@ -108,7 +108,7 @@ Price after discount = Rs. 10,200
 
 $\text{VAT} = 13\% of Rs. 10,200$
 
-→ $( \frac{13}{100} \times 10200 = Rs. 1,326 )$
+→ $( \dfrac{13}{100} \times 10200 = Rs. 1,326 )$
 
 ### Example 2
 

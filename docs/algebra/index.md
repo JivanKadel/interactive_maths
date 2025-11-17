@@ -445,7 +445,7 @@ $ (2^3)^2 = 2^{3 \cdot 2} = 2^6 $
 ### 4. Law of Negative Index
 
 **Rule:**  
-$ a^{-n} = \frac{1}{a^n} \quad (a \ne 0) $
+$ a^{-n} = \dfrac{1}{a^n} \quad (a \ne 0) $
 
 **Example:**  
 $ 4^{-2} = \dfrac{1}{4^2} = \dfrac{1}{16} $
@@ -464,8 +464,11 @@ $ 7^0 = 1 $
 
 ### 6. Root Law of Indices
 
-**Rule:**  
-$ (a)^{\dfrac{1}{n}} = \sqrt[n]{a} $
+**Rule:**
+
+$$
+(a)^{\dfrac{1}{n}} = \sqrt[n]{a}
+$$
 
 **Example:**  
 $ (16)^{\dfrac{1}{2}} = \sqrt{16} = 4 $

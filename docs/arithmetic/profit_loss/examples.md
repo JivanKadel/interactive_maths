@@ -9,12 +9,14 @@ icon: calculate
 
 Definitions:
 
-- Cost Price (CP): the price at which an article is bought.
-- Selling Price (SP): the price at which an article is sold.
-- Profit = SP − CP (when SP > CP).
-- Loss = CP − SP (when SP < CP).
-- Profit% = (Profit / CP) × 100.
-- Loss% = (Loss / CP) × 100.
+| **Term**               | **Meaning**                              |
+| ---------------------- | ---------------------------------------- |
+| **Cost Price (CP)**    | The price at which an article is bought. |
+| **Selling Price (SP)** | The price at which an article is sold.   |
+| **Profit**             | SP − CP (when SP > CP).                  |
+| **Loss**               | CP − SP (when SP < CP).                  |
+| **Profit%**            | (Profit / CP) × 100.                     |
+| **Loss%**              | (Loss / CP) × 100.                       |
 
 ## Examples
 
@@ -40,7 +42,7 @@ Marked Price (MP) = Rs. 450
 
 Discount = 10%
 
-→ Discount Amount = $( \frac{10}{100} \times 450 = Rs. 45 )$
+→ Discount Amount = $( \dfrac{10}{100} \times 450 = Rs. 45 )$
 
 → Selling Price (SP) = Rs. 450 − Rs. 45 = Rs. 405
 
@@ -48,7 +50,7 @@ Discount = 10%
 
 Given CP = $200$, profit% = $15\%$.
 
-Profit = $200\times\frac{15}{100}=30$
+Profit = $200\times\dfrac{15}{100}=30$
 
 SP = $200+30=230$
 
@@ -58,11 +60,11 @@ Given SP = $460$, profit% = $15\%$.
 
 Let CP = $x$.
 
-Profit = $x\times\frac{15}{100} = \frac{15x}{100}$.
+Profit = $x\times\dfrac{15}{100} = \dfrac{15x}{100}$.
 
-So SP = CP + Profit = $x + \frac{15x}{100} = \frac{115x}{100} = \frac{23x}{20}$.
+So SP = CP + Profit = $x + \dfrac{15x}{100} = \dfrac{115x}{100} = \dfrac{23x}{20}$.
 
-Therefore $\frac{23x}{20}=460 \Rightarrow x = 460\times\frac{20}{23} = 400$.
+Therefore $\dfrac{23x}{20}=460 \Rightarrow x = 460\times\dfrac{20}{23} = 400$.
 
 So CP = Rs. $400$.
 
@@ -72,7 +74,7 @@ Profit = $460-400=60$ (which is $15\%$ of 400).
 
 Given CP = $80$, loss% = $25\%$.
 
-Loss = $80\times\frac{25}{100}=20$
+Loss = $80\times\dfrac{25}{100}=20$
 
 SP = $80-20=60$
 
@@ -95,7 +97,7 @@ Profit% = $\dfrac{50}{250}\times 100 = 20\%$.
 - CP = Rs. 300
 - SP = Rs. 390
 - Profit = SP − CP = Rs. 90
-- Profit Percent = $( \frac{90}{300} \times 100\% = 30\% )$
+- Profit Percent = $( \dfrac{90}{300} \times 100\% = 30\% )$
 
 So, Bimal made a 30% profit.
 
@@ -127,11 +129,11 @@ So, Deepak made Re. 1 profit per copy.
 
 - Let CP = Rs. x
 
-- Loss = 20% of x = $( \frac{x}{5} ) $
+- Loss = 20% of x = $( \dfrac{x}{5} ) $
 
-  So, $SP = x - \frac{x}{5}$
+  So, $SP = x - \dfrac{x}{5}$
 
-$\Rightarrow \frac{4x}{5} = 60000 $
+$\Rightarrow \dfrac{4x}{5} = 60000 $
 
 $\Rightarrow x = 75000 $
 

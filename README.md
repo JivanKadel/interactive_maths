@@ -1,5 +1,7 @@
 # Interactive Maths Learning Site
 
+## [See Live Demo](https://jivankadel.github.io/interactive_maths/)
+
 This is a free learning platform designed to help students learn mathematics in an interactive way. Currently, the site is focused on grade 9 maths, with new content added periodically. Future updates may include additional subjects and grades based on user feedback.
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.

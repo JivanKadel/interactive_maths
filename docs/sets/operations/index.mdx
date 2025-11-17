@@ -5,6 +5,8 @@ description: ""
 icon: menu_book
 ---
 
+import useBaseUrl from "@docusaurus/useBaseUrl";
+
 # Operations on Sets
 
 Set operations help us combine, compare, or separate sets based on their elements. These operations are useful in organizing data, solving problems, and understanding relationships between groups.
@@ -20,7 +22,7 @@ Set operations help us combine, compare, or separate sets based on their element
 
 <figure>
   <img
-    src="/img/sets/sets_union.png"
+    src={useBaseUrl("/img/sets/sets_union.png")}
     alt="Venn diagram showing the union of sets A and B"
   />
   <figcaption>
@@ -32,7 +34,7 @@ The union of two sets A and B includes all elements that are in A, in B, or in b
 
 <figure>
   <img
-    src="/img/sets/sets_union_shaded.png"
+    src={useBaseUrl("/img/sets/sets_union_shaded.png")}
     alt="Venn diagram showing the union of sets A and B"
   />
   <figcaption>
@@ -50,7 +52,7 @@ Set Builder Notation: `A ∪ B = {x : x ∈ A or x ∈ B}`
 
 <figure>
   <img
-    src="/img/sets/sets_intersection.png"
+    src={useBaseUrl("/img/sets/sets_intersection.png")}
     alt="Venn diagram showing the intersection of sets A and B"
   />
   <figcaption>
@@ -68,7 +70,7 @@ Set Builder Notation: `A ∩ B = {x : x ∈ A and x ∈ B}`
 
 <figure>
   <img
-    src="/img/sets/sets_difference.png"
+    src={useBaseUrl("/img/sets/sets_difference.png")}
     alt="Venn diagram showing the difference of sets A and B"
   />
   <figcaption>
@@ -78,7 +80,7 @@ Set Builder Notation: `A ∩ B = {x : x ∈ A and x ∈ B}`
 
 <figure>
   <img
-    src="/img/sets/sets_difference_1.png"
+    src={useBaseUrl("/img/sets/sets_difference_1.png")}
     alt="Venn diagram showing the difference of sets B and A"
   />
   <figcaption>
@@ -100,7 +102,7 @@ Remember that **A ∩ B = B ∩ A**, but **A − B ≠ B − A**.
 
 <figure>
   <img
-    src="/img/sets/sets_delta.png"
+    src={useBaseUrl("/img/sets/sets_delta.png")}
     alt="Venn diagram showing the Symmetric difference of sets B and A"
   />
   <figcaption>
@@ -118,7 +120,7 @@ Example: `A − B = {1, 2, 3}` `B − A = {7}` So, `A Δ B = {1, 2, 3, 7}`
 
 <figure>
   <img
-    src="/img/sets/sets_complement.png"
+    src={useBaseUrl("/img/sets/sets_complement.png")}
     alt="Venn diagram showing the Complement of A union B"
   />
 
@@ -132,7 +134,7 @@ Example: `A − B = {1, 2, 3}` `B − A = {7}` So, `A Δ B = {1, 2, 3, 7}`
 
 <figure>
   <img
-    src="/img/sets/set_complement.png"
+    src={useBaseUrl("/img/sets/set_complement.png")}
     alt="Venn diagram showing the Complement of A"
   />
   <figcaption>

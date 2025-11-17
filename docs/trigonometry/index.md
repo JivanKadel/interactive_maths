@@ -3,6 +3,8 @@ sidebar_position: 1
 title: Introduction to Trigonometry
 ---
 
+import useBaseUrl from "@docusaurus/useBaseUrl";
+
 # Introduction to Trigonometry
 
 ### What is Trigonometry?
@@ -22,7 +24,7 @@ In a right-angled triangle, one of the angles is exactly 90°. The three sides o
 
 <figure>
   <img
-    src="/img/trigonometry/pbh_relations.png"
+    src={useBaseUrl("/img/trigonometry/pbh_relations.png")}
     alt="Perpendicular, Base and Hypotenuse in a triangle"
   />
   <figcaption>
@@ -32,7 +34,7 @@ In a right-angled triangle, one of the angles is exactly 90°. The three sides o
 
 <figure>
   <img
-    src="/img/trigonometry/pbh_relations_with_theta.png"
+    src={useBaseUrl("/img/trigonometry/pbh_relations_with_theta.png")}
     alt="Relationship of Perpendicular, Base and Hypotenuse with theta"
   />
   <figcaption>

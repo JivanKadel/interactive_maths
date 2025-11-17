@@ -4,6 +4,8 @@ title: Introduction to Geometry
 description: ""
 ---
 
+import useBaseUrl from "@docusaurus/useBaseUrl";
+
 # Introduction to Geometry
 
 ---
@@ -33,7 +35,7 @@ A **triangle** is a closed figure formed by three line segments. It has:
 
        <figure>
       <img
-        src="/img/geometry/triangle_with_sides.png"
+        src={useBaseUrl("/img/geometry/triangle_with_sides.png")}
         alt="Triangle with sides(a, b, c) and angles(A, B, C)"
       />
       <figcaption>
@@ -48,7 +50,7 @@ A **triangle** is a closed figure formed by three line segments. It has:
 
      <figure>
       <img
-        src="/img/geometry/triangle_with_exterior_angle.png"
+        src={useBaseUrl("/img/geometry/triangle_with_exterior_angle.png")}
         alt="Triangle with angles A, B, C and exterior angle D"
       />
       <figcaption>
@@ -73,7 +75,7 @@ A **triangle** is a closed figure formed by three line segments. It has:
 
         <figure>
          <img
-           src="/img/geometry/triangle_with_base_height.png"
+           src={useBaseUrl("/img/geometry/triangle_with_base_height.png")}
            alt="Triangle with Base and Height specified"
          />
          <figcaption>
@@ -138,16 +140,16 @@ A **triangle** is a closed figure formed by three line segments. It has:
 
 ## Relationship Among Sides and Angles
 
-    <figure>
-         <img
-           src="/img/geometry/triangle_longest_shortest.png"
-           alt="Triangle with variable length of sides"
-         />
-         <figcaption>
-           <b>Figure 4:</b> Triangle with variable length of sides.
-         </figcaption>
+<figure>
+    <img
+      src={useBaseUrl("/img/geometry/triangle_longest_shortest.png")}
+      alt="Triangle with variable length of sides"
+    />
+    <figcaption>
+      <b>Figure 4:</b> Triangle with variable length of sides.
+    </figcaption>
 
-       </figure>
+</figure>
 
 - **Longest side is opposite the largest angle**
 
@@ -165,7 +167,7 @@ $B$ is the Base ( Adjacent )
 
 <figure>
     <img
-        src="/img/geometry/triangle_right_angled.png"
+        src={useBaseUrl("/img/geometry/triangle_right_angled.png")}
         alt="Right angled triangle with base, hypotenuse and perpendicular"
     />
     <figcaption>
@@ -188,7 +190,7 @@ Two triangles are **similar** if:
 
 <figure>
     <img
-        src="/img/geometry/triangles_similar.png"
+        src={useBaseUrl("/img/geometry/triangles_similar.png")}
         alt="Two similar triangles (ABC) and (DEF)"
     />
     <figcaption>

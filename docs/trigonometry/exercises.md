@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Trigonometry Exercises
 ---
 
-# Mensuration Exercises
+# Trigonometry Exercises
 
 ## Exercise 1
 

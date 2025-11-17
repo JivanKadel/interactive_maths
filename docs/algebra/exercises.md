@@ -7,7 +7,7 @@ title: Algebra Exercises
 
 # Cubes, Expansion, Factorization
 
-## 1️. Find the Cube of the Expressions Using Formula
+## 1️. Cubes Using Formula
 
 Use the identity:
 
